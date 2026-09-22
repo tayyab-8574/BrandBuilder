@@ -1,0 +1,93 @@
+import { MediumOption, ProductProfile } from "../types";
+
+export const AVAILABLE_MEDIUMS: MediumOption[] = [
+  {
+    id: "billboard",
+    title: "Highway Billboard",
+    tagline: "Epic architectural outdoor canvas",
+    defaultAspectRatio: "16:9",
+    iconName: "Monitor",
+    description: "Monolithic roadside or skyline advertising structure with dramatic evening spotlights and modern architectural backdrop.",
+    recommendedSetting: "Urban metropolis highway overpass at twilight with architectural skyline",
+  },
+  {
+    id: "newspaper",
+    title: "Print Newspaper",
+    tagline: "Tactile editorial daily publication",
+    defaultAspectRatio: "3:4",
+    iconName: "Newspaper",
+    description: "Crisp broadsheet newspaper folded open on a wooden editorial desk, authentic fibrous newsprint and delicate ink halftone texture.",
+    recommendedSetting: "Polished oak desk with soft morning window light and financial press headlines",
+  },
+  {
+    id: "social_post",
+    title: "Social Media Post",
+    tagline: "Aesthetic feed & campaign photography",
+    defaultAspectRatio: "1:1",
+    iconName: "Share2",
+    description: "High-engagement studio still life with travertine podium, soft prism caustics, and clean negative space for social feeds.",
+    recommendedSetting: "Warm stone podium with organic botanical shadows and soft studio fill",
+  },
+  {
+    id: "transit_poster",
+    title: "Subway Lightbox",
+    tagline: "Luminous metro terminal display",
+    defaultAspectRatio: "3:4",
+    iconName: "Train",
+    description: "Ultra-sharp backlit advertisement poster set in brushed aluminum frames against polished concrete station walls.",
+    recommendedSetting: "Pristine minimalist subterranean terminal corridor with glowing lightbox frame",
+  },
+  {
+    id: "magazine_spread",
+    title: "Magazine Double-Spread",
+    tagline: "Glossy luxury editorial feature",
+    defaultAspectRatio: "16:9",
+    iconName: "BookOpen",
+    description: "Full-bleed two-page editorial spread inside a high-fashion architectural quarterly on a textured studio surface.",
+    recommendedSetting: "Lying open on textured neutral linen with soft overhead editorial lighting",
+  },
+  {
+    id: "storefront",
+    title: "Boutique Window Display",
+    tagline: "Flagship retail pedestal showcase",
+    defaultAspectRatio: "4:3",
+    iconName: "Store",
+    description: "Dramatic retail showcase behind clear anti-reflective boutique glass, featuring custom geometric pedestals and theatrical spotlights.",
+    recommendedSetting: "Fifth Avenue style boutique facade at blue hour with dramatic warm spotlights",
+  },
+];
+
+export const SAMPLE_PRODUCTS: ProductProfile[] = [
+  {
+    name: "Aura Nectar Eau De Parfum",
+    brandName: "AURA LUXE",
+    category: "Luxury Fragrance",
+    description: "A monolithic fluted smoked-glass perfume bottle with a heavy brushed brass magnetic cap, minimalist debossed gold foil typography on the front, containing an amber golden liquid.",
+    colorPalette: "Smoked obsidian, warm amber gold, brushed champagne brass",
+    materialStyle: "Fluted heavy crystal glass, cold-pressed matte brass, foil-embossed label",
+  },
+  {
+    name: "Solstice Botanical Cold Brew",
+    brandName: "SOLSTICE",
+    category: "Craft Beverage",
+    description: "A sleek 12oz matte aluminum slim can with vibrant minimalist abstract terracotta and sunburst yellow geometric shapes, clean modern sans-serif typography, and fine condensation droplets on the exterior.",
+    colorPalette: "Matte terracotta, marigold yellow, crisp chalk white, raw brushed aluminum",
+    materialStyle: "Matte satin finished aluminum can, tactile micro-condensation beads",
+  },
+  {
+    name: "Forma Ergonomic Ceramic Mug",
+    brandName: "FORMA STUDIO",
+    category: "Modern Homeware",
+    description: "An architectural ceramic coffee mug with a distinctive sculptural circular cantilever handle, raw speckled stoneware bottom, and satin bone-white speckled glaze on the upper body.",
+    colorPalette: "Bone white, raw sand terracotta, speckled basalt",
+    materialStyle: "Hand-thrown coarse stoneware with tactile matte satin glaze",
+  },
+  {
+    name: "Verve Wireless Noise-Cancelling Headphones",
+    brandName: "VERVE ACOUSTICS",
+    category: "Consumer Tech & Audio",
+    description: "Ultra-minimalist over-ear wireless headphones with seamless bead-blasted anodized titanium earcups, breathable woven acoustic fabric headband, and concealed magnetic memory foam cushions.",
+    colorPalette: "Space titanium, deep charcoal acoustic knit, muted burnished steel",
+    materialStyle: "Anodized CNC aerospace aluminum, ballistic woven textile, supple protein leather",
+  },
+];

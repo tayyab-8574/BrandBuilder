@@ -1,0 +1,6 @@
+{
+  "name": "Brand builder app",
+  "description": "Describe your product and visualize it consistently across billboards, newspapers, social posts, and more without people, powered by the Nano-Banana model.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
